@@ -14,7 +14,7 @@ class Home extends Component {
                         <About />
                     </div>
                 </div>
-                <div class="ten wide column sixColt">
+                <div class="sixteen wide tab ten wide computer column sixColt">
                     <Details />
                 </div>
             </div>

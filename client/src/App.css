@@ -48,6 +48,18 @@
   padding: none;
 }
 
+@media only screen and (max-width: 667px) {
+  .sixColt {
+    margin-left: 0;
+  }
+} 
+@media only screen and (max-width: 991px) {
+  .sixColt {
+    margin-left: 20px;
+  }
+} 
+
+
 .image {
   border-radius: 50%;
   height: 180px;
