@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
 import Skill from './Skill'
+import Education from './Education'
 
 class Details extends Component {
     state = {  }
@@ -8,6 +8,7 @@ class Details extends Component {
         return ( 
             <div>
                 <Skill />
+                <Education />
             </div>
          );
     }

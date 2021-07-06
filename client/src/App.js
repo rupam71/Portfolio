@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Home from './Component/Home';
-import Navbar from './Component/Navbar';
 import { Router, Route, Switch, Redirect } from 'react-router-dom';
 import history from './history';
 
