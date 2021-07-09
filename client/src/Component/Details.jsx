@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Skill from './Skill'
 import Education from './Education'
+import Experience from './Experience';
 
 class Details extends Component {
     state = {  }
@@ -8,7 +9,17 @@ class Details extends Component {
         return ( 
             <div>
                 <Skill />
-                <Education />
+                <div className="ui grid centered stackable">
+                    <div className="eight wide column">
+                        <Education />
+                    </div>
+                    <div className="eight wide column">
+                        <Experience />
+                    </div>
+                </div>
+                
+                
+
             </div>
          );
     }

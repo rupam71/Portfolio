@@ -10,7 +10,7 @@ class Home extends Component {
         return ( 
             <div class="ui grid stackable">
                 <div class="sixteen wide tab six wide computer column sixCol">  
-                    <div className="">
+                    <div className="sticky-top">
                         <About />
                     </div>
                 </div>
