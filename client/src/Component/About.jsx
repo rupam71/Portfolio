@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import image from './image2.jpg'
 import Image from './Image';
+import image from './../Image/image2.jpg'
 import AllIcons from './AllIcons';
 import AboutList from './AboutList';
 

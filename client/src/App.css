@@ -46,22 +46,85 @@
   padding: none;
 }
 
-@media only screen and (max-width: 667px) {
+
+
+
+@media only screen and (min-width: 600px) {
   .sixColt {
-    margin-left: 0;
+    margin-left: 100px;
   }
 } 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 766px){
   .sixColt {
     margin-left: 20px;
   }
 } 
-
+@media only screen and (min-width: 992px) {
+  .sixColt {
+    margin-left: 0px;
+  }
+}
 
 .image {
   border-radius: 50%;
   height: 180px;
   margin: 20px 0;
 }
+
+
+@media only screen and (min-width: 400px) {
+  .skillName{
+    text-align: right;
+  }
+} 
+
+
+ 
+@media only screen and (max-width: 450px) {
+  .hire {
+     width: 120%; 
+    aspect-ratio: 16/7;
+    margin-left: -2rem;
+    padding: 0;
+  }
+} 
+@media only screen and (min-width: 450px) {
+  .hire {
+     width: 110%; 
+    aspect-ratio: 16/7;
+    margin-left: -2rem;
+    padding: 0;
+  }
+} 
+@media only screen and (min-width: 769px){
+  .hire {
+    width: 103%;
+    aspect-ratio: 16/6;
+    margin-left: -1.4rem;
+  }
+} 
+@media only screen and (min-width: 992px) {
+  .hire {
+    width: 103%;
+    aspect-ratio: 16/7;
+    margin-left: -1rem;
+  }
+}
+
+
+.contain {
+  position: relative;
+  text-align: center;
+  color: black;
+  margin: 40px 0;
+}
+
+.cen {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 
