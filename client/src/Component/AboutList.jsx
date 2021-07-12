@@ -1,6 +1,6 @@
 const AboutList = () => {
     return ( 
-        <div className="ui center aligned grid my-5">            
+        <div className="ui center aligned grid my-5" id="contact">            
                 <div class="" style={{textAlign:'left'}}>
                     <h5> <i class="users icon me-2"/> 25th October</h5>
                     <h5> <i class="marker icon me-2"/> Dhaka, Bangladesh</h5>

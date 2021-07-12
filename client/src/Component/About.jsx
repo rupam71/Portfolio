@@ -8,7 +8,7 @@ class About extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
+            <div id="me">
                 <Image image={image} />
                 <div className="text-center text-white">
                     <h2>Hello! I'M</h2>

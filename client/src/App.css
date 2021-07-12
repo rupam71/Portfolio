@@ -1,3 +1,9 @@
+:root {
+  --mywork: #8CE4AD;
+  --navcolour: #C3A9FF;
+  --skillcolour: #4297cf;
+}
+
 .App {
   text-align: center;
 }
@@ -62,6 +68,7 @@
 @media only screen and (min-width: 992px) {
   .sixColt {
     margin-left: 0px;
+    margin-top: 1rem;
   }
 }
 
@@ -116,7 +123,7 @@
   position: relative;
   text-align: center;
   color: black;
-  margin: 40px 0;
+  margin: 1rem 0 0 0;
 }
 
 .cen {
@@ -125,6 +132,124 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+
+@media only screen and (max-width: 769px){
+  .mywork {
+    background-color: var(--mywork);
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-bottom: 3rem;
+  }
+  .myNav {
+    margin-left: -0.65rem;
+  }
+  .skilldiv {
+    background-color: var(--skillcolour);
+    margin-left: -1rem;
+    padding-left: 1rem;
+    margin-right: -1rem;
+    padding-right: 1rem;
+    color: white;
+  }
+  .navigation {
+    top: 0;
+    right: 0;
+    width: 108%;
+    background-color: var(--navcolour);
+    position:sticky;
+    z-index: 1030;
+  }
+} 
+@media only screen and (min-width: 769px){
+  .mywork {
+    background-color: var(--mywork);
+    margin-left: -1.4rem;
+    padding-bottom: 3rem;
+  }
+  .myNav {
+    margin-left: -1.4rem;
+  }
+  .skilldiv {
+    background-color: var(--skillcolour);
+    margin-left: -1.4rem;
+    padding-left: .4rem;
+    color: white;
+  }
+  .navigation {
+    top: 0;
+    left: 0;
+    width: 108%;
+    margin: -2rem;
+    background-color: var(--navcolour);
+    position:sticky;
+    z-index: 1030;
+  }
+  .ui.centered.grid.navigation{
+    margin-left: -1.4rem;
+    margin-right: 0rem;
+  }
+  .ui.grid.centered.stackable.eduandex{
+    margin-left: -1.4rem;
+  }
+} 
+@media only screen and (min-width: 992px) {
+  .mywork {
+    background-color: var(--mywork);
+    margin-left: -1rem;
+    padding-bottom: 3rem;
+  }
+  .myNav {
+    margin-left: -0.6rem;
+  }
+  .skilldiv {
+    background-color: var(--skillcolour);
+    margin-left: -1rem;
+    padding-left: 1rem;
+    color: white;
+  }
+  .navigation {
+    top: 0;
+    right: 0;
+    width: 108%;
+    background-color: var(--navcolour);
+    position:sticky;
+    z-index: 1030;
+  }
+  .ui.centered.grid.navigation{
+    margin-left: -1rem;
+    margin-right: 0rem;
+  }
+  .ui.grid.centered.stackable.eduandex{
+    margin-left: -1rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+  .mar {
+    margin-top: 0rem;
+  }
+}
+
+
+
+.navitem {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 431px){
+  .ui.secondary.menu .item{
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+}
+
+
+
+
 
 
 

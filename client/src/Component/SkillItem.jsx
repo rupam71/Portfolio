@@ -10,8 +10,8 @@ const SkillItem = ({percent,name}) => {
                     <h5 className="skillName">{percent}%</h5>
                 </dib>                
             </div>
-            <div class="ui progress black" style={{height:".2cm",marginLeft:'10px',width:'100%'}}>
-                <div class="bar" style={{width:`${percent}%`}}></div>
+            <div class="ui progress black mt-1" style={{height:".2cm",marginLeft:'10px',width:'100%',backgroundColor:'white'}}>
+                <div class="bar" style={{width:`${percent}%`,backgroundColor:'#074f80'}}></div>
             </div>
         </div></div>
      );

@@ -5,13 +5,13 @@ class Skill extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
-                <h1 className="text-center my-3">Skill</h1>
+            <div id="skill" className='skilldiv'>
+                <h1 className="text-center pt-5 mb-4">Skill</h1>
                 <div className="ui grid">
                     <div class="two column row">
                         <SkillItem percent='90' name='HTML'/>
                         <SkillItem percent='80' name='CSS'/>
-                        <SkillItem percent='75' name='Reeact Js'/>
+                        <SkillItem percent='75' name='React Js'/>
                         <SkillItem percent='65' name='Redux'/>
                         <SkillItem percent='50' name='Javascript'/>
                         <SkillItem percent='65' name='Node Js'/>
@@ -21,6 +21,7 @@ class Skill extends Component {
                         <SkillItem percent='80' name='Development'/>                   
                     </div>
                 </div>
+                <div className="pb-5"></div>
             </div>
          );
     }

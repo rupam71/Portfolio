@@ -6,13 +6,14 @@ class EducationAndExperience extends Component {
     state = {  }
     render() { 
         return ( 
-            <div className="ui grid centered stackable">
+            <div className="ui grid centered stackable eduandex" style={{backgroundColor:'#C96567'}}>
                     <div className="eight wide column">
                         <Education />
                     </div>
                     <div className="eight wide column">
                         <Experience />
                     </div>
+                    <div className="pb-3"></div>
                 </div>
          );
     }

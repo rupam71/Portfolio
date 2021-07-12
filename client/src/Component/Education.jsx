@@ -6,7 +6,7 @@ class Education extends Component {
     render() { 
         return ( 
             <div>
-                <h1 className="text-center mt-5 mb-3">Education</h1>
+                <h1 className="text-center my-3 text-white">Education</h1>
                 
                 <div className="ui centered grid">
                     <Item 
